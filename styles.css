@@ -1,0 +1,48 @@
+/* Estilo del header */
+header {
+    background-color: #bc4258; /* Fondo del header */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+/* Contenedor del logo y menú */
+nav {
+    display: flex; /* Flexbox para organizar logo y menú */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: flex-start; /* Asegura que el contenido esté alineado al inicio */
+    gap: 20px; /* Espacio entre el logo y el menú */
+}
+
+/* Estilo del logo */
+nav img {
+    height: 50px; /* Tamaño del logo */
+    width: auto; /* Mantén la proporción del logo */
+}
+
+/* Estilo del menú */
+.menu {
+    display: flex; /* Alinea los elementos del menú horizontalmente */
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Espaciado entre enlaces */
+}
+
+.menu li {
+    display: inline; /* Asegura que cada enlace sea una línea horizontal */
+}
+
+.menu li a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    font-size: 16px; /* Tamaño de letra */
+    transition: color 0.3s ease; /* Efecto de hover */
+}
+
+.menu li a:hover {
+    color: #ffcccb; /* Color al pasar el cursor */
+}
+ /* Estilos para pantallas más pequeñas (hasta 768px) */
+ @media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */}
+  
